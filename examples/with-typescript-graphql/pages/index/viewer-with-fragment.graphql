@@ -1,0 +1,7 @@
+# import UserFieldsFragment from './user-fields-fragment.graphql'
+
+query ViewerWithFragment {
+    viewer {
+        ...UserFieldsFragment
+    }
+}

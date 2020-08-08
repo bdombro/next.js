@@ -1,0 +1,5 @@
+fragment UserFieldsFragment on User {
+    id
+    name
+    status
+}

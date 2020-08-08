@@ -1,6 +1,7 @@
-import withApollo from '../lib/with-apollo'
+import withApollo from '../../lib/with-apollo'
 import Link from 'next/link'
 import { useViewerQuery } from './viewer.graphql'
+
 
 const Index = () => {
   const { data } = useViewerQuery()
